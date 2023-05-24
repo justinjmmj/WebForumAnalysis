@@ -9,7 +9,7 @@ library(reshape2)
 getwd()
 setwd("~/Uni Mods/Sem 3/FIT 3152 Data Analytics/Assignment1")
 rm(list=ls())
-set.seed(31972365)
+set.seed(31972123)
 webforum.dat = read.csv("webforum.csv") 
 #webforum.dat = webforum.dat[sample(nrow(webforum.dat),2000),]
 summary(webforum.dat)
